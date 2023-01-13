@@ -1,0 +1,116 @@
+body {
+    background: linear-gradient(#e66465, #9198e5);
+    padding: auto;
+    margin: 10px 200px 100px 100px;
+
+}
+
+h1 {
+    font-size: 36 px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #FCFAFA;
+    text-align: center;
+}
+
+#btn-calculate {
+    display: flex;
+    justify-content: center;
+
+}
+
+.calculate-grade {
+    background: rgb(252, 125, 125);
+    border-radius: 5px;
+    box-shadow: #dddddd;
+    color: white;
+    font: 24px bolder;
+}
+
+
+.panel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 100px 20px 200px;
+
+}
+
+.card {
+    background: #ecebeb;
+    width: 400 px;
+    height: 200 px;
+    display: inline;
+    margin: 10px 10px;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.marks {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: rgb(36, 36, 36);
+}
+
+.marks:first-child {
+    font-size: larger;
+    color: rgb(230, 39, 39);
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1100px;
+    margin: 20px 100px 0px 10px;
+    align-content: space-between;
+
+}
+
+input {
+    background-color: #ecebeb;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    border: 1px solid gray;
+    box-shadow: 20px darkgray;
+    width: 200px;
+    height: 40px;
+    align-content: space-between;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+}
+
+#demo {
+    margin: 20px 100px;
+    border-radius: 25px;
+    height: 600px;
+    display: none;
+}
+
+#table {
+    margin: 20px 100px;
+    border-radius: 25px;
+
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 900px;
+
+    justify-content: center;
+}
+
+td,
+th {
+    border-bottom: 1px solid #dddddd;
+    background-color: #FCFAFA;
+    text-align: center;
+    padding: 8px;
+
+}
